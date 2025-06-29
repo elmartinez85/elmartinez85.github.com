@@ -1,0 +1,15 @@
+// Modern design tweaks
+.navbar {
+  background: linear-gradient(135deg, $brand-color, darken($brand-color, 10%));
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar a.navbar-item,
+.navbar-burger span {
+  color: white;
+}
+
+.footer {
+  background-color: lighten($brand-color, 45%);
+}
